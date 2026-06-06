@@ -74,7 +74,7 @@ ENABLE_TERABOX = get_env_variable("ENABLE_TERABOX", "true").lower() == "true"
 ENABLE_SHRINKME = get_env_variable("ENABLE_SHRINKME", "false").lower() == "true"
 
 # List of Group IDs to post to
-FORWARDER_DEST_IDS = list(map(int, get_env_variable('FORWARDER_DEST_IDS', '-1002263740263,-1002193362290').split(",")))
+FORWARDER_DEST_IDS = list(map(int, get_env_variable('FORWARDER_DEST_IDS', '-1003329549372,-1002193362290').split(",")))
 
 # Time gaps (in seconds)
 FORWARD_DELAY = 30 * 60    # 30 minutes between posts
